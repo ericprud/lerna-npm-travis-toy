@@ -8,18 +8,18 @@ First, ensure you have the [latest `npm`](https://docs.npmjs.com/).
 To get started with the repo:
 
 ```sh
-$ git clone git@github.com:lerna/lerna.git && cd lerna
+$ git clone git@github.com:ericprud/lerna-npm-travis-toy.git && cd lerna
 $ npm i
 ```
 
 ## Code Structure
 
-Currently, the [source](https://github.com/lerna/lerna/tree/master) is split up into a few categories:
+Currently, the [source](https://github.com/ericprud/lerna-npm-travis-toy/tree/master) is split up into a few categories:
 
-* [utils](https://github.com/lerna/lerna/tree/master/utils): shared packages to run git, npm, fs, and more.
-* [core](https://github.com/lerna/lerna/tree/master/core): basic building blocks, including Package-related abstractions and the command superclass.
-* [commands](https://github.com/lerna/lerna/tree/master/commands): each command has an `initialize` and `execute` function.
-  * These commands are consumed as yargs subcommands in [core/cli/index.js](https://github.com/lerna/lerna/blob/master/core/cli/index.js), which is required from the executable [`core/lerna/cli.js`](https://github.com/lerna/lerna/blob/master/core/lerna/cli.js).
+* [utils](https://github.com/ericprud/lerna-npm-travis-toy/tree/master/utils): shared packages to run git, npm, fs, and more.
+* [core](https://github.com/ericprud/lerna-npm-travis-toy/tree/master/core): basic building blocks, including Package-related abstractions and the command superclass.
+* [commands](https://github.com/ericprud/lerna-npm-travis-toy/tree/master/commands): each command has an `initialize` and `execute` function.
+  * These commands are consumed as yargs subcommands in [core/cli/index.js](https://github.com/ericprud/lerna-npm-travis-toy/blob/master/core/cli/index.js), which is required from the executable [`core/lerna/cli.js`](https://github.com/ericprud/lerna-npm-travis-toy/blob/master/core/lerna/cli.js).
 
 ## Commands
 

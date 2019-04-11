@@ -1,7 +1,7 @@
 {
-  "name": "lerna-monorepo",
-  "version": "3.0.0-monorepo",
-  "description": "lerna dog-fooding lerna",
+  "name": "lerna-npm-travis-toy",
+  "version": "1.0.0-monorepo",
+  "description": "playground for Lerna + npm + Travis",
   "private": true,
   "scripts": {
     "ci": "npm test -- --ci --maxWorkers=2 && npm run integration -- --ci",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lerna/lerna.git"
+    "url": "git+https://github.com/ericprud/lerna-npm-travis-toy.git"
   },
   "license": "MIT",
   "homepage": "https://lernajs.io/",
